@@ -1,5 +1,5 @@
 **El gusano de la FISI**  
-Inspirado en el tema expuesto de "MANUPULADORES".
+Inspirado en el tema expuesto de "MANIPULADORES".
 
 Eres un animal con todas las facultades de moverte, pero si un caracol logra tocarte, te infecta y te manipula para que seas mas lento; si te toca una bacteria, mueres!!    
 
