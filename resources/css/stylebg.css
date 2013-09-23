@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    /*background: url(../img/tnm.jpg) no-repeat center;
+    background-attachment: fixed;*/
+}
+#cr-stage{
+    position: absolute;
+    left:2%;
+    margin-left:0px;
+    border-style: solid;
+    border-color: #603D05;
+    box-shadow: #603d05 1px 1px 5px;
+}
+.info{
+    text-align: center;
+}
+.clear{
+    clear:both;
+}
+.skip{
+    color:#603d05;
+    text-decoration: underline;
+    cursor:pointer;
+}
+#interface,#loading{
+  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:3;
+}
+.bars{
+    position: absolute;
+    padding:5px;
+    height:auto;
+}
+div.text{
+    position: absolute; 
+    line-height: 24px;
+    font-size: 12px;
+    color:#ffffff;
+    padding:5px;
+}
+div.text.center{
+    width:100%;
+    text-align: center;
+}
+.bars span.text{
+    position: absolute;
+    width: 100%;
+    display:block;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    color:#333333;
+}
+#interface .ui-progressbar{
+    background:url(../img/bars.png) top left no-repeat;
+    width:178px;
+    height:24px;
+}
+#interface .left{
+    left:0px;
+}
+#interface .right{
+    right:0px;
+}
+#interface .red .ui-progressbar-value{
+    display: block;
+    height:100%;
+    background:url(../img/bars.png) -0px -27px no-repeat;
+}
+#interface .yellow .ui-progressbar-value{
+    display: block;
+    height:100%;
+    background:url(../img/bars.png) -0px -80px no-repeat;
+}
+#interface .green .ui-progressbar-value{
+    display: block;
+    height:100%;
+    background:url(../img/bars.png) -0px -54px no-repeat;
+}
+.panel{
+    height: 35px;
+    position: absolute;
+    width:100%;
+}
+.bottom{
+    bottom:0px;
+}
+.transparent{
+    background: #ffffff;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+.alert{
+    font-size: 30px;
+    color:#603d05;
+    width:100%;
+    line-height: 480px;
+    display:none;
+    text-align: center;
+}
+#loading .ui-progressbar{
+    margin:5px 15px;
+    height:30px;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    border-radius: 5px; /* CSS3 */
+    border:2px ridge #AAAAAA;
+    background: #333333;
+}
+.button{
+    cursor:pointer;
+    display:none;
+    width: 200px;
+    left:50%;
+    margin-left:-100px;
+    position: absolute;
+    height:30px;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    border-radius: 5px; /* CSS3 */
+    border:2px solid #703d08;
+    box-shadow: #555555 2px 2px;
+    background: #603d05;
+    color:#ffffff;
+    text-align: center;
+    line-height: 30px;
+    bottom:80px;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+    z-index: 1001;
+}
+.button_menu{
+    cursor:pointer;
+    display:none;
+    width: 150px;
+
+    margin-left:-100px;
+    left:20%;
+    position: absolute;
+    height: 150px;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    border-radius: 5px; /* CSS3 */
+    border:2px ridge #AAAAAA;
+    background: #0064cd;
+    color:#ffffff;
+    text-align: center;
+    line-height: 30px;
+    bottom:50px;
+}
+#loading .bars{
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+#loading .text{
+    color:#ffffff;
+    line-height: 30px;
+}
+#loading .ui-progressbar-value{
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    border-radius: 5px; /* CSS3 */
+    background: #603d05;
+    height: 30px;
+    width:100%;
+
+}

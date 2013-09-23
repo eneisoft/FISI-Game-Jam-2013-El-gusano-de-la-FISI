@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8">
+    <title>El gusano de la FISI</title>
+    <script>var game_path = location.href.lastIndexOf("/") !== -1 ? location.href.substring(0, location.href.lastIndexOf("/") + 1) : location.href;
+        var pts=0;
+        var scenedef="";
+    </script>
+    <script type="text/javascript" src="resources/js/jquery.js"></script>
+    <script type="text/javascript" src="resources/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="resources/js/crafty.js"></script>
+    <script type="text/javascript" src="src/lib/audio.js"></script>
+    <script type="text/javascript" src="src/lib/camera.js"></script>
+    <script type="text/javascript" src="src/model/entities/box.js"></script>
+    <script type="text/javascript" src="src/model/entities/enemy.js"></script>
+    <script type="text/javascript" src="src/model/entities/player.js"></script>
+    <script type="text/javascript" src="src/model/entities/count.js"></script>
+    <script type="text/javascript" src="src/model/entities/caracol.js"></script>
+    <script type="text/javascript" src="src/model/entities/espina.js"></script>
+    <script type="text/javascript" src="src/model/entities/spider.js"></script>
+    <script type="text/javascript" src="src/model/components/mouse_hover.js"></script>
+    <script type="text/javascript" src="src/controller/scenes/levels/fisi.js"></script>
+    <script type="text/javascript" src="src/controller/scenes/countdown.js"></script>
+    <script type="text/javascript" src="src/controller/scenes/gameover.js"></script>
+    <script type="text/javascript" src="src/controller/scenes/good.js"></script>
+    <script type="text/javascript" src="src/controller/scenes/menu.js"></script>
+    <script type="text/javascript" src="src/controller/scenes/loading.js"></script>
+    <script type="text/javascript" src="src/game.js"></script>
+    <link type="text/css" href="resources/css/style.css" rel="stylesheet" />
+    <link type="text/css" href="resources/css/stylebg.css" rel="stylesheet" />
+</head>
+<body>
+<div class="info">
+    <div id="content">
+        <div id="home" class="text" style="position:absolute !important; background-position: center center !important;padding: 250px 0px 0px 0px;">
+
+            <div id="cr-stage" style="left:0px;">
+
+                <div id="interface">
+
+                    <div class="bars bottom left" >
+                        <div id="hp" ><span class="text"></span></div>
+                    </div>
+                    <div class="bars bottom"  style="left:50%;margin-left:-89px">
+                        <div id="shield" ><span class="text"></span></div>
+                    </div>
+                    <div class="bars bottom right" >
+                        <div id="heat" ><span class="text"></span></div>
+                    </div>
+                    <div class="alert"></div>
+                </div>
+                <div style="background-position: center center;position:absolute;z-index:1000">
+                   <!-- <img src="resources/img/font.png">-->
+                </div>
+
+                <div id="loading" style="position:absolute !important; background-position: center center !important">
+                    <!--<div class="button" >Comenzar</div>-->
+
+                    <div class="bars bottom">
+                        <div id="load" ><span class="text"></span></div>
+                    </div>
+                </div >
+
+            </div>
+        </div>
+
+    </div>
+    <div id="container">
+        <div id="menu">
+        
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
